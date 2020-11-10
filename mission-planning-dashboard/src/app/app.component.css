@@ -1,4 +1,9 @@
 .box {
     display: flex;
     padding: 10px;
-}
+ }
+
+ .box > * {
+    margin: 0 auto;
+  }
+  

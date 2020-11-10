@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./crew.component.css']
 })
 export class CrewComponent implements OnInit {
+<<<<<<< HEAD:src/app/crew/crew.component.ts
   memberBeingEdited: object = null;
 
   @Input() crew: object[] = [
@@ -15,6 +16,9 @@ export class CrewComponent implements OnInit {
     {name: "Ellen Ochoa", firstMission: true}
   ];
 
+=======
+  crew: string[] = ["Jessica Watkins", "Raja Chari", "Jasmin Moghbeli"];
+>>>>>>> fe6eab5defea18495ecdd919cbcd09ee7ecf076e:mission-planning-dashboard/src/app/crew/crew.component.ts
   constructor() { }
 
   ngOnInit() {
@@ -39,3 +43,4 @@ export class CrewComponent implements OnInit {
   }
   
 }
+

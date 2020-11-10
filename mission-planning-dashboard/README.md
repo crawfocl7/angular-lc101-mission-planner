@@ -2,7 +2,7 @@
 This repo contains branches for the Mission Planner studio. There is a starter branch for each
 version of the studio.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
 
